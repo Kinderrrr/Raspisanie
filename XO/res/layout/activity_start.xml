@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_start"
+    android:gravity="bottom|center"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ButtonPlayer1"
+        android:layout_width="134dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/player1" />
+
+    <ImageButton
+        android:id="@+id/ButtonPlayer2"
+         android:layout_width="134dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/player2" />
+
+    <ImageButton
+        android:id="@+id/ButtonExit3"
+        android:layout_width="134dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/exit" />
+
+</LinearLayout>
