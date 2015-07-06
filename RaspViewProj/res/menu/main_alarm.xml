@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.raspisanie_proj.MainActivity" >
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/settings_icon"
+        android:showAsAction="always"
+        android:orderInCategory="100"
+        android:title="@string/item2">
+    </item>
+    
+  
+
+</menu>

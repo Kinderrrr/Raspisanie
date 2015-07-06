@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stations">
+        <item>Институт Культуры</item>
+        <item>Минск-Восточный</item>
+        <item>Тракторный</item>
+        <item>Товарный двор</item>
+        <item>Степянка</item>
+        <item>Озерище</item>
+        <item>Колодищи</item>
+        <item>Садовый</item>
+        <item>Городище</item>
+        <item>Слобода</item>
+        <item>Домашаны</item>
+        <item>Загорье</item>
+        <item>Смолевичи</item>
+        <item>Заречное</item>
+        <item>Красное знамя</item>
+        <item>Барсуки</item>
+        <item>Жодино-Южное</item>
+        <item>Пролетарская Победа</item>
+        <item>Печинский</item>
+        <item>Борисов</item>
+        <item>Березина</item>
+        <item>Неманица</item>
+        <item>Навасады</item>
+        <item>Замужанье</item>
+        <item>Приямино</item>
+        <item>Бережок</item>
+        <item>Крупки</item>
+    </string-array>
+
+    <string-array name="weekDaysUS">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="weekDaysRU">
+        <item>пн</item>
+        <item>вт</item>
+        <item>ср</item>
+        <item>чт</item>
+        <item>пт</item>
+        <item>сб</item>
+        <item>вск</item>
+    </string-array>
+
+    <string-array name="extractExpressions">
+        <item>^(\\d{1,2}[\\,]*\\s){1,}(марта)</item>
+        <item>^(((пн|вт|ср|чт|пт|сб|вск)[\\,]*)+)</item>
+        <item>^(по выходным)</item>
+        <item>^(по будням)</item>
+    </string-array>
+
+</resources>

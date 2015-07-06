@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/Adapters/ListViewNedavnieAdapter.java=UTF-8
+encoding//src/Adapters/MyPagerAdapter.java=Cp1251
+encoding//src/Adapters/MyPagerAdapterRasp.java=UTF-8
+encoding//src/Fragments/FragmentOneStation.java=UTF-8
+encoding//src/Fragments/FragmentToday.java=UTF-8
+encoding//src/Fragments/FragmentTwoStation.java=UTF-8
+encoding//src/db/MyPrefs.java=UTF-8
+encoding//src/db/MySQLiteClass.java=UTF-8
+encoding//src/db/ParsingCombinator.java=UTF-8
+encoding//src/db/UpdatingService.java=UTF-8
+encoding/<project>=UTF-8

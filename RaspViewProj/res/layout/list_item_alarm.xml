@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/LinearLayoutAlarmItem" >
+
+    <LinearLayout
+    android:id="@+id/LinearLayoutTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    <TextView
+        android:paddingTop="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="45dp"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:id="@+id/TextViewCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/TextViewTimeLeave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:textColor="#000000" 
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/TextViewTimeAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+    
+    
+</LinearLayout>
+
+    <Button
+       android:id="@+id/ButtonView"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentTop="true"
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:layout_marginTop="5dp"
+       android:layout_marginRight="5dp"
+     
+        android:background="@drawable/image_button_close" />
+
+</RelativeLayout>
